@@ -1,0 +1,31 @@
+{
+  "name": "live-view",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon src/index.js",
+    "start:production": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuizEduardoCardozo/live-view.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuizEduardoCardozo/live-view/issues"
+  },
+  "homepage": "https://github.com/LuizEduardoCardozo/live-view#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "mongoose": "^5.10.4"
+  }
+}
